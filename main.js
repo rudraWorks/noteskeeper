@@ -20,7 +20,7 @@ var cnt=0;
     // app configuration //
     
     textarea.style.height=innerHeight/1.3+'px';
-    textarea.style.width=innerWidth/1.3+'px';
+    textarea.style.width=innerWidth/1.25+'px';
     textarea.style.fontSize=localStorage.getItem("fontAdjust")+"px";
     fontAdjustVar.value=localStorage.getItem("fontAdjust");
     //alert(localStorage.getItem("fontAdjust"));
